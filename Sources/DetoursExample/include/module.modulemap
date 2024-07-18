@@ -1,0 +1,4 @@
+module DetoursExample {
+    header "DetourRaiseFailFastException.h"
+    export *
+}

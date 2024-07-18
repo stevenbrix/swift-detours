@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-detours}",
+            "name": "Debug swift-user-defaults-repro",
+            "program": "${workspaceFolder:swift-detours}\\.build\\debug\\swift-user-defaults-repro.exe",
+            "preLaunchTask": "swift: Build Debug swift-user-defaults-repro"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-detours}",
+            "name": "Release swift-user-defaults-repro",
+            "program": "${workspaceFolder:swift-detours}\\.build\\release\\swift-user-defaults-repro.exe",
+            "preLaunchTask": "swift: Build Release swift-user-defaults-repro"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-detours}",
+            "name": "Debug ExampleApp",
+            "program": "${workspaceFolder:swift-detours}\\.build\\debug\\ExampleApp.exe",
+            "preLaunchTask": "swift: Build Debug ExampleApp"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:swift-detours}",
+            "name": "Release ExampleApp",
+            "program": "${workspaceFolder:swift-detours}\\.build\\release\\ExampleApp.exe",
+            "preLaunchTask": "swift: Build Release ExampleApp"
+        }
+    ]
+}
